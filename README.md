@@ -11,13 +11,15 @@ This is a sleek, responsive weather web app built with **HTML, CSS, and JavaScri
 - 🔊 Weather-specific sound effects (rain and thunder)
 - 📱 Fully responsive for mobile devices
 - ❄️ Glassmorphism UI for a modern look
-- 🌐 Deployable on Netlify or GitHub Pages
+- 🌐 Deployable on Netlify and GitHub Pages
 
 ---
 
 ## 📸 Screenshot
 ![Rainy](https://github.com/user-attachments/assets/309f1786-fb8f-4f5a-977c-5bae2922f776)
+
 ![Cloudy](https://github.com/user-attachments/assets/c16756ef-70c5-4f9a-b7a4-0a9f10d3078f)
+
 ![Sunny](https://github.com/user-attachments/assets/cf70594e-f69a-4fa8-9938-b47848adff9f)
 
 ---
@@ -41,16 +43,18 @@ This is a sleek, responsive weather web app built with **HTML, CSS, and JavaScri
 4. See the current temperature and weather condition instantly!
 
 ## 📁File Structure
-weather-app/
-│
-├── index.html # Main HTML file
-├── style.css # Styles including weather animations
-├── script.js # JavaScript to fetch and display weather
-├── README.md # This file
+Weather-API/
+├── index.html          
+├── README.md           
+├── style.css           
+├── script.js          
+
+
 
 ## 🌐 Live Demo
 
-[Click here to view the live site](https://weatherly-api.netlify.app/) <!-- Replace with your Netlify URL -->
+[Click here to view the live site](https://weatherly-api.netlify.app/)
+
 
 ## 📝 License
 
@@ -60,6 +64,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ### 📫 Contact
 
-Developed by **Afrah Mushtaq Mukadam**  
+**Developed by Afrah Mukadam**  
 GitHub: [AfrahMukadam](https://github.com/AfrahMukadam)  
 Portfolio: [Afrah Mukadam Portfolio](https://afraahmukadam.wordpress.com/)
