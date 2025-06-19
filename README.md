@@ -42,19 +42,23 @@ This is a sleek, responsive weather web app built with **HTML, CSS, and JavaScri
 3. Enter a city name (e.g., `London`) and click "Get Weather".
 4. See the current temperature and weather condition instantly!
 
+---
+
 ## 📁File Structure
+```
 Weather-API/
 ├── index.html          
 ├── README.md           
 ├── style.css           
-├── script.js          
-
+├── script.js       
+```
+---
 
 
 ## 🌐 Live Demo
-
 [Click here to view the live site](https://weatherly-api.netlify.app/)
 
+---
 
 ## 📝 License
 
@@ -62,8 +66,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-### 📫 Contact
 
 **Developed by Afrah Mukadam**  
-GitHub: [AfrahMukadam](https://github.com/AfrahMukadam)  
+LinkedIn: [Afrah Mukadam](https://www.linkedin.com/in/afrah-mukadam-688479219/)  
 Portfolio: [Afrah Mukadam Portfolio](https://afraahmukadam.wordpress.com/)
+
+---
