@@ -1,0 +1,119 @@
+/* Base styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: background-image 1s ease-in-out;
+}
+
+.weather-card {
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    width: 300px;
+}
+
+#temp {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+#location {
+    font-size: 24px;
+}
+
+#icon img {
+    width: 100px;
+    height: 100px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2980b9;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #1f6391;
+}
+
+
+/* Weather-specific animated backgrounds */
+
+body.sunny {
+    background-image: url('https://media.giphy.com/media/XE3ZzzkP3RFAw/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.cloudy {
+    background-image: url('https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.rainy {
+    background-image: url('https://media.giphy.com/media/dI3D3BWfDub0Q/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.snowy {
+    background-image: url('https://media.giphy.com/media/l0MYC0LajbaPoEADu/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.default {
+    background: linear-gradient(#2c3e50, #3498db);
+}
+
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+    .weather-card {
+        width: 90%;
+        padding: 20px;
+    }
+    #temp {
+        font-size: 36px;
+    }
+    #location {
+        font-size: 20px;
+    }
+    input[type="text"],
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
