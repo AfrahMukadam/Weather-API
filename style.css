@@ -66,14 +66,14 @@ button:hover {
 /* Weather-specific animated backgrounds */
 
 body.sunny {
-    background-image: url('https://media.giphy.com/media/XE3ZzzkP3RFAw/giphy.gif');
+    background-image: url('https://i.gifer.com/141W.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 body.cloudy {
-    background-image: url('https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif');
+    background-image: url('https://i.makeagif.com/media/8-08-2017/U8cAor.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -87,14 +87,14 @@ body.rainy {
 }
 
 body.snowy {
-    background-image: url('https://media.giphy.com/media/l0MYC0LajbaPoEADu/giphy.gif');
+    background-image: url('https://cdn.pixabay.com/animation/2023/02/15/02/31/02-31-39-143_512.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 body.default {
-    background: linear-gradient(#2c3e50, #3498db);
+    background: linear-gradient(#2c3e50, #080809);
 }
 
 
